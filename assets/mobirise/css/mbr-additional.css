@@ -1429,9 +1429,14 @@ body {
 }
 .cid-rpLNbVh4Si H3 {
   text-align: left;
+  color: #232323;
 }
 .cid-rpLNbVh4Si H1 {
   text-align: left;
+}
+.cid-rpLNbVh4Si .mbr-text,
+.cid-rpLNbVh4Si .mbr-section-btn {
+  color: #232323;
 }
 .cid-rpLNTDmYnB .navbar {
   background: #ffffff;
@@ -1832,6 +1837,68 @@ body {
 .cid-rpLNTDmYnB .dropdown-item:hover {
   color: #767676 !important;
 }
+.cid-rpTflU0xBJ {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rpTflU0xBJ .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-rpTflU0xBJ .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-rpTflU0xBJ .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-rpTflU0xBJ .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-rpTflU0xBJ .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+}
+.cid-rpTflU0xBJ .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-rpTflU0xBJ .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-rpTflU0xBJ .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-rpTflU0xBJ .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+}
 .cid-rpT4igFl5t {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -2062,4 +2129,9 @@ body {
   .cid-rpT85ntJTI div.left-block.wrapper {
     padding-bottom: 3rem;
   }
+}
+.cid-rpTf5O0P7W {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
 }
